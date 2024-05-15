@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot_dubbo_provider" />
+        <module name="dubbo_consumer" />
+        <module name="dubbo_interface" />
+        <module name="dubbo_provider" />
+        <module name="hessian_client" />
+        <module name="hessian_server" />
+        <module name="java_spi" />
+        <module name="myRpc" />
+        <module name="rmi_client" />
+        <module name="rmi_server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
